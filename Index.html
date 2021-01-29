@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="style-cv.css">
+		<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+		<script src="https://kit.fontawesome.com/5797b67603.js" crossorigin="anonymous"></script>
+
+		<title>Boubekeur_BENZAID</title>
+	</head>
+
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+			<a id="logo" href="#about" class="navbar-brand"><i class="fas fa-bold"></i></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="#about">About me</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#skills">Skills</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#projet">Projects & Achievements</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#experience">Professional experiences</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#education">Diplomas & Qualifications</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#loisir">Interests</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		<section id="about" class="container-fluid">
+			<div class="col-xs-8 col-md-4 profile-picture">
+				<img class="rounded-circle" src="Image/photo_identite_bob.jpg" alt="Boubekeur_BENZAID">
+			</div>
+			<div class="heading">
+				<h1>Welcome !</h1>
+				<h3>
+					I'm benzaid boubekeur, i'm master's student in computer science.<br>
+					Young enthusiast and curious about the digital world, I created my site to illustrate my background and my skills in this field.
+				</h3>
+				<a href="Doc/CV__Boubekeur_BENZAID_Dev.pdf" class="button1">
+					<i class="fas fa-download"></i>	
+					Download CV
+				</a>
+				<a href="Doc/Lettre.pdf" class="button1">
+					<i class="fas fa-download"></i>	
+					Download cover letter
+				</a>
+			</div>
+		</section>
+
+		<section id="skills">
+			<div class="red-divider"></div>
+			<div class="heading">
+				<h2>Skills</h2><br>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<h3 class="titleSkills">Web</h3>
+						<div class="progress">
+							<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+								HTML / CSS / JavaScript / PHP
+							</div>
+						</div>
+						<div class="progress">
+							<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+								Bootstrap / JQuery
+							</div>
+						</div>
+						<div class="progress">
+							<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+								NodeJS / Express / VueJS
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<h3 class="titleSkills">Programming</h3>
+						<div class="progress">
+							<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+								JAVA / JavaEE
+							</div>
+						</div>
+						<div class="progress">
+							<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">
+								Python
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<h3 class="titleSkills">Data base</h3>
+						<div class="progress">
+							<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+								SQL Server / MySQL
+							</div>
+						</div>
+						<div class="progress">
+							<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+								MongoDB
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<h3 class="titleSkills">other tools</h3>
+						<div class="progress">
+							<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+								Eclispe
+							</div>
+						</div>
+						<div class="progress">
+							<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+								Visual Code
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="projet">
+			<div class="container">
+				<div class="white-divider"></div>
+				<div class="heading">
+					<h2>Projects</h2>
+				</div>
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="projet_block">
+							<h4>Web service application for bank account management</h4>
+							<i class="fas fa-laptop-code"></i>
+							<h5>Language: JAVA/JavaEE/SQLServer</h5>
+							<div class="red-divider"></div>
+							<ol>
+								<li>Design of the application from a UML diagram</li>
+								<li>Design, modeling and implementation of the database schema</li>
+								<li>Creation of a website for the application and deployment in Apache Tomcat</li>
+								<li>Managing the creation of a bank account using a subscription form</li>
+								<li>Management of the various operations (transfer, direct debit, bank credit, ...etc)</li>
+							</ol>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="projet_block">
+							<h4>Website for a travel agency</h4>
+							<i class="fas fa-laptop-code"></i>
+							<h5>Language: Javascript/HTML/CSS</h5>
+							<div class="red-divider"></div>
+							<ol>
+								<Li>Creation of the graphic interface of the website for the agency with HTML / CSS and Bootstrap</Li>
+								<li>Management of account creation using a subscription form</li>
+								<li>Revitalization of the website by implementing the various operations offered by the agency (booking, planning your trip ...)</li>
+							</ol>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="projet_block">
+							<h4>Ad website web application.</h4>
+							<i class="fas fa-laptop-code"></i>
+							<h5>Language: NodeJS/Express/MongoDB</h5>
+							<div class="red-divider"></div>
+							<ol>
+								<li>Development of the server part with NodeJS / Express</li>
+								<li>Development of the Authentication of account identifiers part with NodeJS / Express</li>
+								<li>Creation of the database with MongoDB.</li>
+							</ol>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section id="experience">
+			<div class="container">
+				<div class="red-divider"></div>
+				<div class="heading">
+					<h2>Professional experiences</h2>
+				</div>
+				<ul class="timeline">
+					<li>
+						<div class="timeline-badge"><i class="fas fa-briefcase"></i></div>
+						<div class="timeline-panel-container-inverted">
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3>Civital</h3>
+									<h4>Computer engineer assistant</h4>
+									<p class="text-muted">
+										<i class="far fa-clock"></i>
+									Mai 2018 - Juin 2018 (1 month)
+									</p>
+								</div>
+								<div class="timeline-body">
+									<p><span>Computer engineer assistant internship</span><br>
+										Study, management and realization of unit tests of the application code as well as on that database of the company</p>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="timeline-badge"><i class="fas fa-briefcase"></i></div>
+						<div class="timeline-panel-container">
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3>SONATRACH</h3>
+									<h4>Automation engineer assistant</h4>
+									<p class="text-muted">
+										<i class="far fa-clock"></i>
+									Mai 2017 - Jun 2017 (1 month)
+									</p>
+								</div>
+								<div class="timeline-body">
+									<p><span>Automation engineer assistant internship</span><br>
+										Programming and simulation of a programmable logic controller for controlling hydrocarbon line valves</p>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<section id="education">
+			<div class="container">
+				<div class="white-divider"></div>
+					<div class="heading">
+						<h2>Diplomas & Qualifications</h2>
+					</div>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="education-block">
+							<h5>2020</h5>
+							<i class="fas fa-graduation-cap"></i>
+							<h3>Master 2 Systèmes Distribués et Technologies de la Data Science</h3>
+							<div class="red-divider"></div>
+							<h4>Université Paris-Est-Créteil Val-de-Marne, France</h4>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="education-block">
+							<h5>2018-2020</h5>
+							<i class="fas fa-graduation-cap"></i>
+							<h3>Master Ingénierie des Systèmes Complexes</h3>
+							<div class="red-divider"></div>
+							<h4>Université Paris-Est-Créteil Val-de-Marne, France</h4>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="education-block">
+							<h5>2017-2018</h5>
+							<i class="fas fa-graduation-cap"></i>
+							<h3>Licence Science pour l'Ingénieur</h3>
+							<div class="red-divider"></div>
+							<h4>Université Via Domitia de Perpignan, France</h4>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="education-block">
+							<h5>2014-2017</h5>
+							<i class="fas fa-graduation-cap"></i>
+							<h3>Licence en Science et Technologie</h3>
+							<div class="red-divider"></div>
+							<h4>Université Abderrahmane Mira de Bejaia, Algérie</h4>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="education-block">
+							<h5>Juin 2014</h5>
+							<i class="fas fa-graduation-cap"></i>
+							<h3>Baccalauréat Scientifique</h3>
+							<div class="red-divider"></div>
+							<h4>Lycée El-Houria Bejaia, Algérie</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section id="loisir">
+			<div class="container">
+				<div class="red-divider"></div>
+				<div class="heading">
+					<h2>Interests</h2>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+						<div class="loisir-block">
+							<i class="fas fa-gamepad"></i>
+							<h4>Video games</h4>
+							<div class="red-divider"></div>
+							<h5>strategy, role play, arcade</h5>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="loisir-block">
+							<i class="fas fa-running"></i>
+							<h4>Sport</h4>
+							<div class="red-divider"></div>
+							<h5>basketball, football, swimming</h5>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="loisir-block">
+							<i class="fas fa-tree"></i>
+							<h4>Nature</h4>
+							<div class="red-divider"></div>
+							<h5>camping, hiking</h5>	
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer>
+			<div class="row">
+				<div class="col">
+					<ul>
+						<li>
+							<i class="fas fa-envelope">	boubekeur.benzaid@gmail.com</i>
+						</li>
+						<li>
+							<i class="fas fa-phone"> +33 7 67 07 7 92</i>
+						</li>
+					</ul>
+				</div>
+				<div class="col">
+					<ul class="lien">
+						<li class="d-inline">
+							<a id="linkedin" href="https://www.linkedin.com/in/boubekeur-benzaid-029b73185/"><i class="fab fa-linkedin"></i></a>
+						</li>
+						<li class="d-inline">
+							<a id="github" href="https://github.com/Benz-B"><i class="fab fa-github-square"></i></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+				integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+				crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+				integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+				crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+				integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+				crossorigin="anonymous"></script>
+	</body>
+</html>
